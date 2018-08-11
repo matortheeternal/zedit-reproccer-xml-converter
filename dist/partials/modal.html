@@ -1,5 +1,26 @@
+<style>
+    .setting {
+        display: flex;
+        margin: 5px 0;
+    }
+
+    .setting .input-label {
+        min-width: 225px;
+        margin: 0;
+    }
+
+    .setting input[type="text"] {
+        flex-grow: 1;
+        margin-right: 6px;
+    }
+
+    .setting  select {
+        min-width: 150px;
+    }
+</style>
+
 <div class="modal-container" unfocus-modal>
-    <div class="modal">
+    <div class="modal huge-modal">
         <form>
             <div class="close-modal" ng-click="$emit('closeModal')"></div>
 
