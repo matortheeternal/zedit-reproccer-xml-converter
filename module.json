@@ -1,0 +1,9 @@
+{
+  "id": "reproccerRuleConverter",
+  "name": "Reproccer Rule Converter",
+  "author": "Mator",
+  "version": "1.0",
+  "released": "8/11/2018",
+  "updated": "8/11/2018",
+  "description": "Converts SkyRe Reproccer XML files to the JSON format used by Reproccer Reborn."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "zedit-reproccer-xml-converter",
+  "productName": "zEdit Reproccer XML Converter",
+  "description": "Converts SkyRe Reproccer XML files to the JSON format used by Reproccer Reborn.",
+  "version": "1.0.0",
+  "author": "Mator",
+  "copyright": "© 2018, Mator",
+  "repository": "https://github.com/matortheeternal/zedit-reproccer-xml-converter",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "release": "gulp release"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-include": "^2.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-zip": "^4.0.0"
+  }
+}

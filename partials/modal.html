@@ -1,0 +1,28 @@
+<div class="modal-container" unfocus-modal>
+    <div class="modal">
+        <form>
+            <div class="close-modal" ng-click="$emit('closeModal')"></div>
+
+            <h2>Reproccer XML Converter</h2>
+            <p>Converts SkyRe Reproccer XML files to the JSON format used by Reproccer Reborn.</p>
+
+            <section>
+                <div class="setting">
+                    <span class="input-label">Input path</span>
+                    <input type="text" ng-model="inputPath" />
+                    <span class="browse-button" ng-click="browseForInput()" title="Browse"></span>
+                </div>
+                <div class="setting">
+                    <span class="input-label">Output path</span>
+                    <input type="text" ng-model="outputPath" />
+                    <span class="browse-button" ng-click="browseForOutput()" title="Browse"></span>
+                </div>
+            </section>
+
+            <div class="primary-actions">
+                <button class="action-btn" ng-click="convert()">OK</button>
+                <button class="action-btn" ng-click="$emit('closeModal')">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
