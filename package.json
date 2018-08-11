@@ -11,7 +11,9 @@
     "build": "gulp build",
     "release": "gulp release"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",

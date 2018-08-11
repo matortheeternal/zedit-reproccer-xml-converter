@@ -1,6 +1,6 @@
 {
-  "id": "reproccerRuleConverter",
-  "name": "Reproccer Rule Converter",
+  "id": "reproccerXmlConverter",
+  "name": "Reproccer XML Converter",
   "author": "Mator",
   "version": "1.0",
   "released": "8/11/2018",
